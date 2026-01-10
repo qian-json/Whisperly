@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Whisperly - AI-Powered Transcription</title>
+    <meta
+      name="description"
+      content="Real-time AI transcription for microphones, browser audio, and file uploads"
+    />
+    <link rel="stylesheet" href="../index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <nav class="sidenav" role="navigation" aria-label="Main navigation">
+      <div class="nav-header">
+        <h2 class="nav-title">Whisperly</h2>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="../index/index.html" aria-label="Go to home page">
+            <span class="label">Home</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="../external/external.html"
+            aria-describedby="livelisten-desc"
+          >
+            <span class="label">LiveListen</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="../internal/internal.html"
+            aria-describedby="voicenotes-desc"
+          >
+            <span class="label">VoiceNotes</span>
+          </a>
+        </li>
+        <li class="coming-soon">
+          <span class="label">DropAndListen</span>
+          <span class="badge">Coming Soon</span>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main" role="main">
+      <header class="hero-section">
+        <h1 class="bigtext">Welcome to Whisperly</h1>
+        <p class="subtitle">Your AI-powered transcription assistant</p>
+      </header>
+
+      <section class="features" aria-labelledby="features-heading">
+        <h2 id="features-heading" class="sr-only">Available Features</h2>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎙️</div>
+          <h3>LiveListen</h3>
+          <p id="livelisten-desc">
+            Real-time microphone transcription for meetings, interviews, and
+            voice notes. Perfect for live conversations and presentations.
+          </p>
+          <a
+            href="../external/external.html"
+            class="cta-button"
+            aria-label="Go to LiveListen microphone transcription"
+          >
+            Try LiveListen
+          </a>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💻</div>
+          <h3>VoiceNotes</h3>
+          <p id="voicenotes-desc">
+            Real-time browser audio transcription for videos, meetings, and
+            streaming content. Add captions to any audio playing in your
+            browser.
+          </p>
+          <a
+            href="../internal/internal.html"
+            class="cta-button"
+            aria-label="Go to VoiceNotes browser audio transcription"
+          >
+            Try VoiceNotes
+          </a>
+        </div>
+
+        <div class="feature-card coming-soon-card">
+          <div class="feature-icon">📁</div>
+          <h3>DropAndListen <span class="badge">Coming Soon</span></h3>
+          <p>
+            Upload and transcribe audio or video files. Batch processing for
+            recorded content, podcasts, and archived media.
+          </p>
+          <button
+            class="cta-button"
+            disabled
+            aria-label="DropAndListen feature coming soon"
+          >
+            Coming Soon
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="getting-started"
+        aria-labelledby="getting-started-heading"
+      >
+        <h2 id="getting-started-heading">Getting Started</h2>
+        <ol class="steps">
+          <li>
+            Choose a transcription service from the sidebar or feature cards
+            above
+          </li>
+          <li>Grant necessary permissions (microphone or screen capture)</li>
+          <li>Start recording and see real-time transcriptions appear</li>
+          <li>Generate AI summaries of your transcribed content</li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

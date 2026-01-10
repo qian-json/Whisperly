@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Whisperly - LiveListen</title>
+    <meta name="description" content="Real-time microphone transcription with AI">
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <nav class="sidenav" role="navigation" aria-label="Main navigation">
+      <div class="nav-header">
+        <h2 class="nav-title">Whisperly</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../index/index.html" aria-label="Go to home page">
+          <span class="label">Home</span>
+        </a></li>
+        <li><a href="external.html" class="active" aria-label="LiveListen microphone transcription (current page)">
+          <span class="label">LiveListen</span>
+        </a></li>
+        <li><a href="../internal/internal.html" aria-label="Go to VoiceNotes browser audio transcription">
+          <span class="label">VoiceNotes</span>
+        </a></li>
+        <li class="coming-soon">
+          <span class="label">DropAndListen</span>
+          <span class="badge">Coming Soon</span>
+        </li>
+      </ul>
+    </nav>
+    
+    <main class="main app-page" role="main">
+      <header class="page-header">
+        <h1 class="page-title">LiveListen</h1>
+        <p class="page-description">Real-time microphone transcription</p>
+      </header>
+      
+      <section class="controls" aria-labelledby="controls-heading">
+        <h2 id="controls-heading" class="sr-only">Recording Controls</h2>
+        <div class="control-buttons">
+          <button id="startBtn" aria-label="Start microphone recording">Start Listening</button>
+          <button id="stopBtn" style="display: none" aria-label="Stop microphone recording">Stop Listening</button>
+          <button id="summaryBtn" aria-label="Generate summary of transcription">Get Summary</button>
+        </div>
+        
+        <div class="font-control">
+          <label for="fontSize">Text Size:</label>
+          <select id="fontSize" aria-label="Choose text size for captions">
+            <option value="16px">Small</option>
+            <option value="22px" selected>Medium</option>
+            <option value="28px">Large</option>
+          </select>
+        </div>
+      </section>
+      
+      <section class="output" aria-labelledby="output-heading">
+        <h2 id="output-heading" class="sr-only">Transcription Output</h2>
+        <div class="captions" aria-live="polite" aria-label="Live transcription">
+          <h3>Transcription:</h3>
+          <div id="captions-text"></div>
+        </div>
+        <div class="summary" aria-live="polite" aria-label="Generated summary">
+          <h3>Summary:</h3>
+          <div id="summary-text"></div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="external.js"></script>
+  </body>
+</html>
