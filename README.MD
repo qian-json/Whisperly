@@ -5,6 +5,7 @@ The all-in-one Speech-to-Text (STT) platform for people with hearing disabilitie
 # The Theme and our team's solution
 This year's TSA Theme for software development is as follows:
 > Develop a software program that removes barriers and increases accessibility for people with vision or hearing disabilities.
+
 We decided to build a suite of applications called "Whisperly", named after a portmanteau of "whisper" and "softly". It boasts two robust features:
 1. Drop'N'Listen - our main STT captioning technology. Users can drag and drop files into the webpage and with our optimized file-uploading algorithm, we can live-caption the entire video.
 2. VoiceNotes - get computer-input audio as text. Meetings, videos, livestreams all have one thing in common. Live audio, and our VoiceNotes feature give live transcription of it into captions.
@@ -22,5 +23,6 @@ We decided to build a suite of applications called "Whisperly", named after a po
 * Aadi Jain - AI/ML Lead and STT model designer
   - Sophomore
   - Favorite coding experience: 
+
 
 
