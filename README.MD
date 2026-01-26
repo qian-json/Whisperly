@@ -10,15 +10,16 @@ We decided to build a suite of applications called "Whisperly", named after a po
 2. VoiceNotes - get computer-input audio as text. Meetings, videos, livestreams all have one thing in common. Live audio, and our VoiceNotes feature give live transcription of it into captions.
 
 # Meet the Team
-1. Agasthya Tatti - Team Lead
+* Agasthya Tatti - Team Lead
   - Sophomore
   - Favorite coding experience: 
-2. Stavya Palassery - Backend Lead and Middleware manager
+* Stavya Palassery - Backend Lead and Middleware manager
   - Senior
   - Favorite coding experience;
-3. Jason Qian - Frontend Lead
+* Jason Qian - Frontend Lead
   - Sophomore
   - Favorite coding experience: 
-4. Aadi Jain - AI/ML Lead and STT model designer
+* Aadi Jain - AI/ML Lead and STT model designer
   - Sophomore
   - Favorite coding experience: 
+
