@@ -1,14 +1,3 @@
-#uploadContainer {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.04)), var(--glass-panel);
-    padding: 3rem;
-    border-radius: var(--radius-panel);
-    border: 1px solid var(--border-strong);
-    box-shadow: var(--surface-shadow);
-    backdrop-filter: blur(var(--blur-amount));
-    -webkit-backdrop-filter: blur(var(--blur-amount));
-    margin-bottom: 3rem;
-}
-
 .file-input-container {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -141,10 +130,6 @@
 }
 
 @media (max-width: 768px) {
-    #uploadContainer {
-        padding: 2.2rem;
-    }
-
     #fileInput {
         max-width: 100%;
     }
