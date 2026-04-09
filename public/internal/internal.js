@@ -52,8 +52,4 @@ createLiveTranscriptionApp({
 
     return "VoiceNotes could not start. Make sure the WebSocket server on port 8000 is running.";
   },
-  onSummaryClick({summaryPanel, summaryText}) {
-    summaryPanel.classList.add("show");
-    summaryText.textContent = "Summaries for VoiceNotes are not available yet.";
-  },
 });

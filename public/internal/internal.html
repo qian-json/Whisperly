@@ -43,7 +43,7 @@
       <div class="control-buttons">
         <button id="startBtn" aria-label="Start browser audio recording">Start Listening</button>
         <button id="stopBtn" style="display: none" aria-label="Stop browser audio recording">Stop Listening</button>
-        <button id="summaryBtn" aria-label="Generate summary of transcription">Get Summary</button>
+        <button id="summaryBtn" aria-label="Generate summary of transcription" disabled>Summary Coming Soon</button>
       </div>
 
       <div id="statusMessage" class="error-message" role="status" aria-live="polite" hidden></div>
@@ -64,9 +64,9 @@
         <h3>Transcription:</h3>
         <div id="captions-text"></div>
       </div>
-      <div class="summary" aria-live="polite" aria-label="Generated summary">
+      <div class="summary show" aria-live="polite" aria-label="Generated summary">
         <h3>Summary:</h3>
-        <div id="summary-text"></div>
+        <div id="summary-text">Summaries for VoiceNotes are coming soon!</div>
       </div>
     </section>
   </main>

@@ -1,5 +1,3 @@
-/* ===== FILE UPLOAD SECTION ===== */
-
 #uploadContainer {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.04)), var(--glass-panel);
     padding: 3rem;
