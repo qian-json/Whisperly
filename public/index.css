@@ -48,8 +48,6 @@ body {
     margin: 0;
     padding: 0;
     background:
-        radial-gradient(circle at 100% 0, rgba(255, 142, 102, 0.22), transparent 30%),
-        radial-gradient(circle at 100% 0, rgba(95, 165, 255, 0.18), transparent 26%),
         linear-gradient(145deg, #050914 0%, #101827 48%, #09111d 100%);
     font-family: "Atkinson Hyperlegible Next", sans-serif;
     font-size: 18px;
